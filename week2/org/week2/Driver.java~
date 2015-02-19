@@ -1,0 +1,24 @@
+package org.week2;
+
+public class Driver {
+
+	private static Cart testCart;
+
+	public static Cart getTestCart() {
+		return this.testCart;
+	}
+
+	public static void setTestCart(Cart testCart) {
+		this.testCart = testCart;
+	}
+
+	/**
+	 * 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Starting....");		
+		testCart = new Cart();
+	}
+
+}
