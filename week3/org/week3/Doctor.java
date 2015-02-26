@@ -1,0 +1,28 @@
+package org.week3;
+
+public class Doctor extends Professional {
+
+	private String speciality;
+	private int hospitalID;
+
+	public String getSpeciality() {
+		return this.speciality;
+	}
+
+	public void setSpeciality(String speciality) {
+		this.speciality = speciality;
+	}
+
+	public int getHospitalID() {
+		return this.hospitalID;
+	}
+
+	public void setHospitalID(int hospitalID) {
+		this.hospitalID = hospitalID;
+	}
+
+	public Doctor() {
+		System.out.println("Creating Doctor....");	
+	}
+
+}

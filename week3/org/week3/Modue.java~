@@ -1,0 +1,24 @@
+package org.week3;
+
+public class Module {
+
+	private string name;
+	private float duration;
+
+	public string getName() {
+		return this.name;
+	}
+
+	public void setName(string name) {
+		this.name = name;
+	}
+
+	public float getDuration() {
+		return this.duration;
+	}
+
+	public void setDuration(float duration) {
+		this.duration = duration;
+	}
+
+}

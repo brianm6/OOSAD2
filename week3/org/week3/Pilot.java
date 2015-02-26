@@ -1,0 +1,28 @@
+package org.week3;
+
+public class Pilot extends Professional {
+
+	private String homeAirport;
+	private boolean commercialPlane;
+
+	public String getHomeAirport() {
+		return this.homeAirport;
+	}
+
+	public void setHomeAirport(String homeAirport) {
+		this.homeAirport = homeAirport;
+	}
+
+	public boolean getCommercialPlane() {
+		return this.commercialPlane;
+	}
+
+	public void setCommercialPlane(boolean commercialPlane) {
+		this.commercialPlane = commercialPlane;
+	}
+
+	public Pilot() {
+		System.out.println("Creating Pilots....");	
+	}
+
+}

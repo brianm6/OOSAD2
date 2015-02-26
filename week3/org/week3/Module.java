@@ -1,0 +1,28 @@
+package org.week3;
+
+public class Module {
+
+	private String name;
+	private float duration;
+
+	public String getName() {
+		return this.name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public float getDuration() {
+		return this.duration;
+	}
+
+	public void setDuration(float duration) {
+		this.duration = duration;
+	}
+
+	public Module() {
+		System.out.println("Creating Module....");	
+	}
+
+}
