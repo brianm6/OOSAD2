@@ -1,0 +1,22 @@
+package org.week7;
+
+public class GraphicsSubsystem {
+
+	public void loadBitmaps() {
+		// TODO - implement GraphicsSubsystem.loadBitmaps
+		throw new UnsupportedOperationException();
+	}
+
+	public void spliceBitmaps() {
+		System.out.println("spliceBitmaps");		
+	}
+
+	public void connectToDisplay() {
+		System.out.println("connectToDisplay");		
+	}
+
+	public GraphicsSubsystem() {
+		System.out.println("GraphicsSubsystem Create");
+	}
+
+}

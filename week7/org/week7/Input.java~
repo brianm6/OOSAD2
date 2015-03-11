@@ -1,0 +1,17 @@
+package org.week7;
+
+public class Input {
+
+	public void connectToInput() {
+		System.out.println("connectToInput");
+	}
+
+	public void testKeyRate() {
+		System.out.println("testKeyRate");
+	}
+
+	public Input() {
+		System.out.println("InputSubsystem Create");
+	}
+
+}

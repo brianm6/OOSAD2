@@ -1,0 +1,20 @@
+package org.week7;
+
+public class InputSubsystem {
+
+	public void connectToInput() {
+		// TODO - implement InputSubsystem.connectToInput
+		throw new UnsupportedOperationException();
+	}
+
+	public void testKeyRate() {
+		// TODO - implement InputSubsystem.testKeyRate
+		throw new UnsupportedOperationException();
+	}
+
+	public InputSubsystem() {
+		// TODO - implement InputSubsystem.InputSubsystem
+		throw new UnsupportedOperationException();
+	}
+
+}

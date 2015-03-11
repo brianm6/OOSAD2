@@ -1,0 +1,24 @@
+package org.week7;
+
+public class AudioSubsystem {
+
+	public void loadAudioFiles() {
+		System.out.println("loadAudioFiles");
+	}
+
+	public void sequence() {
+		// TODO - implement AudioSubsystem.sequence
+		throw new UnsupportedOperationException();
+	}
+
+	public void connectToSpeackers() {
+		// TODO - implement AudioSubsystem.connectToSpeackers
+		throw new UnsupportedOperationException();
+	}
+
+	public AudioSubsystem() {
+		// TODO - implement AudioSubsystem.AudioSubsystem
+		throw new UnsupportedOperationException();
+	}
+
+}

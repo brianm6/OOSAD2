@@ -1,0 +1,21 @@
+package org.week7;
+
+public class Audio {
+
+	public void loadAudioFiles() {
+		System.out.println("loadAudioFiles");
+	}
+
+	public void sequenceAudioFiles() {
+		System.out.println("sequenceAudioFiles");
+	}
+
+	public void connectToSpeackers() {
+		System.out.println("connectToAudio");
+	}
+
+	public Audio() {
+		System.out.println("AudioSubsystem Create");
+	}
+
+}

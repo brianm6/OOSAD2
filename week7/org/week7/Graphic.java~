@@ -1,0 +1,21 @@
+package org.week7;
+
+public class Graphic {
+
+	public void loadBitmaps() {
+		System.out.println("loadBitmaps");		
+	}
+
+	public void spliceBitmaps() {
+		System.out.println("spliceBitmaps");		
+	}
+
+	public void connectToDisplay() {
+		System.out.println("connectToDisplay");		
+	}
+
+	public Graphic() {
+		System.out.println("GraphicsSubsystem Create");
+	}
+
+}
