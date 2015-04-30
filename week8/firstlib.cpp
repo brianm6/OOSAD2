@@ -1,0 +1,27 @@
+#include <iostream>
+#include "firstlib.h"
+
+void printGreeting() {
+	std::cout << "Welcome to C++ library programming" << std::endl;
+}
+
+void weatherForcast(int days) {
+	if (days < 0 || days > 3) {
+		std::cout << "Wrong number of days entered. Please enter 0 - 3 days" << std::endl;
+	} else {
+		std::cout << days << " days forcast for Dublin" << std::endl;
+		std::cout << "High in deg C: 22" << std::endl;
+		std::cout << "Low in deg C: 17" << std::endl;
+		std::cout << "Predicted Rainfall: None" << std::endl;
+		std::cout << "Windspeed: 15Km/h" << std::endl;
+		std::cout << "Wind-direction: North-West" << std::endl;
+	}
+}
+
+void getMyLocation(std::string& location) {
+	location = "Dublin 24";
+}
+
+void printCourse(courseStruct& course) {
+	std::cout << "Learn " << course.name << " in " << course.days << " days" << std::endl;
+}
